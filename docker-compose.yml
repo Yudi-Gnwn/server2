@@ -1,0 +1,10 @@
+version: '3'
+services:
+  voting_app:
+    build: .
+    ports:
+      - "9032:9032"  # Ganti X dengan 2 atau 3
+    environment:
+      - PORT=9032
+      - DB_HOST=192.168.138.35
+    restart: always
