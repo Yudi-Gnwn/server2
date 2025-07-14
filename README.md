@@ -1,6 +1,6 @@
 # Konfigurasi Server 2 
 
-- Mempersiapkan Folder & ibrary
+- Mempersiapkan Folder & library
 - Struktur Folder seperti dibawah:
 
   ```
@@ -14,10 +14,9 @@
   Dockerfile
   init_db.sql
   requirement.txt
-
   ```
 
-- Install library pada file ```requirement.txt``` 
+- Prepare library pada ```requirement.txt``` 
 
   ```
   Flask==2.3.3
@@ -32,7 +31,7 @@
   Flask-WTF
   ```
 
-- Pastikan file requirements.txt tersimpan dan jalankan dengan command:
+- Pastikan file requirements.txt tersimpan dan jalankan command:
   
   ```
   pip install --no-cache-dir -r requirements.txt
