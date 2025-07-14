@@ -1,4 +1,4 @@
-# Konfigurasi Server 2 
+# Konfigurasi Server
 
 - Mempersiapkan Folder & library
 - Struktur Folder seperti dibawah:
